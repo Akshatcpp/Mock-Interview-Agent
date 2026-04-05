@@ -1,0 +1,33 @@
+{
+  "editor.suggest.enabled": true,
+  "editor.suggest.showSnippets": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggest.showWords": false,
+  "editor.suggest.showIcons": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabCompletion": "on",
+  "javascript.suggest.enabled": true,
+  "javascript.autoClosingTags": true,
+  "typescript.suggest.enabled": true,
+  "typescript.suggest.autoImports": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

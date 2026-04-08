@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🧠 AI Mock Interview Agent
 
-## Getting Started
+Practice smarter, not harder.
+An AI-powered mock interview platform that simulates real-world interviews, evaluates responses, and provides actionable feedback — helping you become interview-ready with confidence.
 
-First, run the development server:
+✨ Overview
 
-```bash
+AI Mock Interview Agent is a full-stack intelligent platform designed to replicate real interview scenarios using modern AI models.
+It allows users to practice interviews, receive instant feedback, and continuously improve — all within an interactive and intuitive UI.
+
+🚀 Live Demo
+
+🌐 Try it now:
+https://mock-interview-agent-xi.vercel.app/
+
+📂 Source Code:
+https://github.com/Akshatcpp/Mock-Interview-Agent
+
+🎯 Key Features
+🧠 AI-Driven Questions
+Dynamically generated interview questions tailored to roles and topics
+📊 Intelligent Feedback System
+Evaluates answers and provides improvement suggestions
+🎤 Real Interview Simulation
+Mimics real-world interview flow for better preparation
+🔐 Authentication System
+Secure login/signup using Clerk
+⚡ Modern UI/UX
+Clean, responsive, and fast user experience
+🔄 Scalable Architecture
+Built with modular and maintainable code structure
+🏗️ Tech Stack
+Category	Technology
+Frontend	Next.js 16, React, Tailwind CSS
+Backend	Next.js API Routes
+AI Integration	Google Gemini API
+Authentication	Clerk
+Deployment	Vercel
+🧠 How It Works
+📁 Project Structure
+.
+├── app/
+│   ├── api/           # Backend API routes (AI logic)
+│   ├── dashboard/     # Main interview interface
+│   ├── (auth)/        # Authentication pages
+│
+├── components/        # Reusable UI components
+├── lib/               # Utility & AI helper functions
+├── public/            # Static assets
+└── styles/            # Global styles
+⚙️ Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/Akshatcpp/Mock-Interview-Agent.git
+cd Mock-Interview-Agent
+2️⃣ Install Dependencies
+npm install
+3️⃣ Configure Environment Variables
+
+Create a .env.local file in the root directory:
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+CLERK_SECRET_KEY=your_key
+NEXT_PUBLIC_GEMINI_API_KEY=your_key
+4️⃣ Run the Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Deployed seamlessly using Vercel:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+npm run build
+💡 Future Enhancements
+🎙️ Voice-based interview simulation
+📈 Advanced performance analytics
+🧾 Resume-based personalized questions
+🤖 Multi-role interview (HR + Technical + Managerial)
+🌍 Multi-language support
+🤝 Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contributions are welcome!
+Feel free to fork this repo, open issues, or submit pull requests.
 
-## Learn More
+👨‍💻 Author
 
-To learn more about Next.js, take a look at the following resources:
+Akshat Raikhere
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔗 GitHub: https://github.com/Akshatcpp
+🔗 LinkedIn: (add your link here)
+⭐ Support
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If you found this project useful, consider giving it a ⭐ on GitHub — it helps a lot!
 
-## Deploy on Vercel
+🧠 For Recruiters
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project demonstrates:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Full-stack development with Next.js
+AI integration in real-world applications
+Clean architecture and scalable design
+Strong focus on UI/UX and product thinking
+
+🔥 Built with passion for creating impactful AI-driven products.

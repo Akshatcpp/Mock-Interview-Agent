@@ -84,7 +84,7 @@ Feel free to fork this repo, open issues, or submit pull requests.
 Akshat Raikhere
 
 🔗 GitHub: https://github.com/Akshatcpp
-🔗 LinkedIn: (add your link here)
+
 ⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub — it helps a lot!
